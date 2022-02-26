@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form 1</title>
+</head>
+<body>
+    <form action="useraccount.php" method="get">
+        <label for="username"> UserName:</label> 
+        <input id="username" type="text"> <br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password"> <br>
+        <textarea name="" id="" cols="30" rows="10" placeholder="Write down your details"></textarea>
+<br>
+        <label for="gender">Gender:</label>
+        <select name="select" id="">
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+        <option value="none">Prefer not to answer</option> </select>
+      <br>
+      <input type="text" list="mylist">
+      <datalist id="mylist"> 
+          <option value="Dhaka">Dhaka</option>
+          <option value="Khulna">Khulna</option>
+      </datalist>
+        
+        <input type="Submit" value="Submit">
+    </form>
+
+</body>
+</html>
